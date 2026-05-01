@@ -1,0 +1,11 @@
+/* Hide the 'BASE' badge/tag in the File Explorer */
+.nav-file-tag, 
+.nav-folder-tag {
+    display: none !important;
+}
+
+/* If the plugin uses a specific 'base' class (common in that plugin) */
+.nav-file-base-tag, 
+.nav-folder-base-tag {
+    display: none !important;
+}
