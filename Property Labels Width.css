@@ -1,0 +1,16 @@
+/* Make Obsidian Property Labels Wider */
+.metadata-properties {
+    --metadata-label-width: 250px; /* Adjust this value as needed */
+}
+
+/* Optional: Ensure text doesn't truncate if it's still too long */
+.metadata-property-key-text {
+    white-space: normal;
+    overflow: visible;
+    text-overflow: clip;
+}
+
+/* Optional: Align the text to the left for better readability */
+.metadata-property-key {
+    justify-content: flex-start;
+}
