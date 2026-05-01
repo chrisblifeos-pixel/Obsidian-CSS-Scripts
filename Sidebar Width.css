@@ -1,0 +1,10 @@
+/* Target the mobile-specific left drawer */
+.is-mobile .workspace-drawer.mod-left {
+    width: 45vw !important; /* Default is usually around 70vw; this makes it significantly wider */
+    max-width: 95vw !important; /* Prevents it from covering the entire screen so you can still tap out of it */
+}
+
+/* Ensures the file explorer content fills the expanded width */
+.is-mobile .workspace-drawer.mod-left .workspace-drawer-inner {
+    width: 100% !important;
+}
